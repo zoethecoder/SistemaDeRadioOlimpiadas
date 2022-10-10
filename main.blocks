@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="$TB}!(Hi]-xSDEL*hKL|">foco</variable></variables><block type="pxt-on-start" id="AZj#.=#jq~1(NO%lNZXC" x="30" y="20"><statement name="HANDLER"><block type="radio_set_group" id="_CW)LyjM.NwMC.G8m~oh"><value name="ID"><shadow type="math_number_minmax" id="ZpF:yy-5y4kU:4T{^|,M"><mutation min="0" max="255" label="Id" precision="0"></mutation><field name="SLIDER">70</field></shadow></value></block></statement></block><block type="device_forever" id="51tY=Hma%(kK)icO]W]?" x="26" y="161"><statement name="HANDLER"><block type="controls_if" id="UElKVfkQKpY1!b~gWL3I"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="v13{bGyQ{gRk`dkMZ;Db"><field name="OP">LT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_get_analog_pin" id="hQ/_-z7^*AVY!WdS/.+l"><field name="name">AnalogPin.P0</field></block></value><value name="B"><shadow type="math_number" id=";pfkhY7iTu7U!;kta@fd"><field name="NUM">700</field></shadow></value></block></value><statement name="DO0"><block type="radio_datagram_send_string" id="AI{D,/yyz6%:Tcn+@n/:"><value name="msg"><shadow type="text" id="(e4PtuUiZ:ZlRH~1!5md"><field name="TEXT">poca humedad, hay que regar</field></shadow></value></block></statement></block></statement></block><block type="radio_on_number_drag" id="9|3FKp=EPFy!AuN64NAS" x="27" y="399"><value name="HANDLER_DRAG_PARAM_receivedNumber"><shadow type="argument_reporter_number" id="pEsw/8*=Xo%SIrW/G7?$"><field name="VALUE">receivedNumber</field></shadow></value><statement name="HANDLER"><block type="device_show_leds" id="!^HuXh[,du$7[vj@|T^T"><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field><next><block type="device_pause" id="CTu0!SmzNJMN-x~OU@Nb"><value name="pause"><shadow type="timePicker" id="a;4Aw7X3bVeGf;D(M]^I"><field name="ms">1000</field></shadow></value><next><block type="device_show_leds" id="fSHJ?gF5IXZ[CKkkXyHi"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></next></block></next></block></statement></block></xml>
